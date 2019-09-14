@@ -1,0 +1,31 @@
+Calibration results 
+====================
+Camera-system parameters:
+	cam0 (/camera/fisheye1/image_raw):
+	 type: <class 'aslam_cv.libaslam_cv_python.DistortedOmniCameraGeometry'>
+	 distortion: [-0.24739852 -0.03089198 -0.00073755  0.00100511] +- [0.00438897 0.00508068 0.00021829 0.00023106]
+	 projection: [  0.89978927 546.51200981 546.36488629 428.60375252 409.22323245] +- [0.00324925 0.05927417 0.05931009 0.24439564 0.21211578]
+	 reprojection error: [0.000008, 0.000000] +- [0.264624, 0.294621]
+
+	cam1 (/camera/fisheye2/image_raw):
+	 type: <class 'aslam_cv.libaslam_cv_python.DistortedOmniCameraGeometry'>
+	 distortion: [-0.25834916 -0.00803684 -0.00084659  0.00382117] +- [0.00407945 0.00421856 0.00020164 0.00025294]
+	 projection: [  0.85962478 536.17130619 535.8532456  428.48753342 402.2466533 ] +- [0.00319462 0.05955884 0.0596185  0.25802549 0.21258472]
+	 reprojection error: [-0.000008, -0.000000] +- [0.278706, 0.295084]
+
+	baseline T_1_0:
+	 q: [ 0.00142608 -0.00137353 -0.0013824   0.99999708] +- [0.00064208 0.00061773 0.000132  ]
+	 t: [-0.06274461 -0.00021242  0.00004487] +- [0.00002933 0.00002655 0.00006398]
+
+
+
+Target configuration
+====================
+
+  Type: checkerboard
+  Rows
+    Count: 6
+    Distance: 0.023 [m]
+  Cols
+    Count: 9
+    Distance: 0.023 [m]
